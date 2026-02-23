@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Premium IPTV Service</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
+url("https://images.unsplash.com/photo-1593784991095-a205069470b6") no-repeat center center/cover;
+color:white;
+animation: zoomBg 20s infinite alternate;
+}
+
+@keyframes zoomBg{
+0%{background-size:100%;}
+100%{background-size:110%;}
+}
+
+header{
+background: linear-gradient(90deg,#ff0080,#7928ca,#2afadf);
+padding:20px;
+text-align:center;
+font-size:28px;
+font-weight:800;
+letter-spacing:2px;
+text-transform:uppercase;
+box-shadow:0 5px 20px rgba(0,0,0,0.6);
+}
+
+nav{
+display:flex;
+justify-content:center;
+gap:30px;
+background:rgba(0,0,0,0.8);
+padding:15px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:600;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#ff0080;
+text-shadow:0 0 10px #ff0080;
+}
+
+.hero{
+text-align:center;
+padding:100px 20px;
+}
+
+.hero h1{
+font-size:50px;
+background:linear-gradient(45deg,#ff0080,#00f2fe);
+-webkit-background-clip:text;
+color:transparent;
+}
+
+.hero p{
+margin-top:20px;
+font-size:18px;
+color:#ddd;
+}
+
+.btn{
+display:inline-block;
+margin-top:30px;
+padding:12px 30px;
+border-radius:50px;
+background:linear-gradient(90deg,#ff0080,#7928ca);
+color:white;
+text-decoration:none;
+font-weight:600;
+transition:0.4s;
+}
+
+.btn:hover{
+transform:scale(1.1);
+box-shadow:0 0 20px #ff0080;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+padding:60px 40px;
+}
+
+.feature-box{
+background:rgba(255,255,255,0.1);
+backdrop-filter:blur(10px);
+padding:30px;
+border-radius:15px;
+text-align:center;
+transition:0.4s;
+}
+
+.feature-box:hover{
+transform:translateY(-10px);
+background:linear-gradient(135deg,#ff0080,#7928ca);
+}
+
+.feature-box img{
+width:80px;
+margin-bottom:20px;
+}
+
+.pricing{
+text-align:center;
+padding:60px 20px;
+}
+
+.price-card{
+display:inline-block;
+background:rgba(0,0,0,0.85);
+border:2px solid #ff0080;
+border-radius:20px;
+padding:30px;
+margin:20px;
+transition:0.4s;
+}
+
+.price-card:hover{
+transform:scale(1.05);
+background:linear-gradient(135deg,#7928ca,#2afadf);
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:black;
+color:#aaa;
+}
+</style>
+</head>
+
+<body>
+
+<header>Premium IPTV Service</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#features">Features</a>
+<a href="#pricing">Pricing</a>
+<a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+<h1>Unlimited IPTV Streaming</h1>
+<p>Watch 15,000+ Live Channels & 50,000+ Movies in HD & 4K Quality</p>
+<a href="#pricing" class="btn">Get Started</a>
+</section>
+
+<section class="features" id="features">
+<div class="feature-box">
+<img src="app.png">
+<h3>Live TV</h3>
+<p>Access worldwide live channels anytime.</p>
+</div>
+
+<div class="feature-box">
+<img src="file:///C:/Users/ApriZOn/Documents/Received%20Files/iptv.webp">
+<h3>Movies & Series</h3>
+<p>Latest movies and trending web series.</p>
+</div>
+
+<div class="feature-box">
+<img src="file:///C:/Users/ApriZOn/Documents/Received%20Files/my.webp">
+<h3>4K Ultra HD</h3>
+<p>Experience crystal clear streaming quality.</p>
+</div>
+</section>
+
+<section class="pricing" id="pricing">
+<h2>Our Plans</h2>
+
+<div class="price-card">
+<h3>1 Month</h3>
+<p>$20</p>
+<p>Full Access</p>
+<a href="#" class="btn">Buy Now</a>
+</div>
+
+<div class="price-card">
+<h3>6 Months</h3>
+<p>$60</p>
+<p>Full Access</p>
+<a href="#" class="btn">Buy Now</a>
+</div>
+
+<div class="price-card">
+<h3>12 Months</h3>
+<p>$100</p>
+<p>Full Access</p>
+<a href="#" class="btn">Buy Now</a>
+</div>
+
+</section>
+
+<footer>
+© 2026 Premium IPTV Service | All Rights Reserved
+</footer>
+
+</body>
+</html>
